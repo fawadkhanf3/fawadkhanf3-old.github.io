@@ -1,0 +1,56 @@
+title: Fawad Farooq Ashraf
+description: Fawad Farooq Ashraf's Personal Website
+baseurl: ""
+
+username: Fawad Khan
+typing_text: Aerospace Engineer - Research Associate
+
+email: fawadf3@gmail.com
+linkedin_username: fawadkhanf3
+github_username: fawadkhanf3
+
+show_aboutme_card: false
+about_me_title: About Me
+about_me_description: <empty>
+
+show_skills_card: true
+skills_title: Skills
+
+show_timeline_card: true
+timeline_title: Education & Experience
+cv_download_link: https://fawadkhanf3.github.io
+
+show_projects_card: true
+show_projects: false
+projects_title: Work Projects
+show_os_projects: true
+os_projects_title: Portfolio Projects
+
+show_contact_card: true
+contact_title: Contacts
+contact_description: Feel free to contact me
+
+repository: fawadkhanf3/fawadkhanf3.github.io
+github_pages:
+  - daweedkob.github.io
+  
+projects:
+  sort_by: stars
+  exclude:
+    archived: true
+    forks: true
+    projects:
+      - fawadkhanf3
+
+plugins:
+  - "jekyll-github-metadata"
+
+exclude:
+  [
+    "_assets",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "node_modules",
+    "package.json",
+  ]
